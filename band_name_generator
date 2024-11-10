@@ -1,0 +1,7 @@
+#Day 1 of 100 days of code
+#creating and implementing a band name generator
+#this band name generator works by asking simple questions such as city where you grow up and your pet's name
+print("Hello everyone,welcome to my band generator")
+a=input("Which city did you growup?")
+b=input("What is your pet name?")
+print("You're belonging to the",a + b,"band")
