@@ -1,0 +1,14 @@
+#prints an greeting  message to the user
+print("Welcome to the tip calculator!")
+#Asks  total amount of bill as a input from the user 
+bill = float(input("What was the total bill? $"))
+#Provides options for percentage of  tip along with the bill  that is to be paid 
+tip = int(input("What percentage tip would you like to give? 10 12 15 "))
+#Ensure and asks how many segregation of the total bill has to be done if the persons share their tables among them 
+people = int(input("How many people to split the bill? "))
+#Mathematical  function to give their relevant result
+tip_percent=(tip/100)+1
+sep_bill=((bill/people)*tip_percent)
+round_bill=round(sep_bill,2)
+#Printing the obtained results
+print(f" You have to pay={round_bill}")
